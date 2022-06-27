@@ -6,7 +6,7 @@
 /*   By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/27 21:18:13 by faljaoui          #+#    #+#             */
-/*   Updated: 2022/06/27 21:35:17 by faljaoui         ###   ########.fr       */
+/*   Updated: 2022/06/28 00:28:11 by faljaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,11 @@
 
 void	ft_swap(int *a, int *b)
 {
-    int temp;
-    temp =*a;
-    *a=*b;
-    *b=temp;
+    int tmp;
     
-    
+   tmp=*b;
+    *b=*a;
+    *a = tmp;
 }
 int main ()
 {

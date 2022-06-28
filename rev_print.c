@@ -6,7 +6,7 @@
 /*   By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/28 02:51:42 by faljaoui          #+#    #+#             */
-/*   Updated: 2022/06/28 03:10:02 by faljaoui         ###   ########.fr       */
+/*   Updated: 2022/06/28 04:43:27 by faljaoui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,15 @@
 
 int main(int argc , char *argv[])
 {
-    int i =0;
-    if (argc ==2)
-    {
+    int i = 0;
     while (argv[1][i])
-        i=i+1;
-    while (i)
     {
-        write(1,&argv[1][--i],1);
+    //printf("%d",i);
+    i++;
     }
-    write(1,"\n",1);
+    while (i>=0)
+    {
+        write(1,&argv[1][i],1);
+        i--;
     }
-return(0);
-}
+ }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   first_word.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: faljaoui <faljaoui@student.42.fr>          +#+  +:+       +#+        */
+/*   By: fadwa <fadwa@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/26 03:50:08 by faljaoui          #+#    #+#             */
-/*   Updated: 2022/06/26 04:07:10 by faljaoui         ###   ########.fr       */
+/*   Updated: 2022/06/29 16:50:46 by fadwa            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 int main (int argc , char **argv )
 {
-    int i ;
+    int i ; f
     i = 0;
     if (argc == 2)
     {
